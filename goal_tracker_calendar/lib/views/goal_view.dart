@@ -34,7 +34,6 @@ class GoalView extends StatelessWidget {
   Widget _goalListTile(context, Goal goal) {
     return ListTile(
       title: Text(goal.title),
-      subtitle: Text(goal.howOften),
       trailing: Text(goal.amount.toString()),
     );
   }
